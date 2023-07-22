@@ -4,6 +4,7 @@
         "outDir": "dist/js", //Compilado para dist/js
         "target": "ES6", //coverter para o EMC 6
         "noEmitOnError": true, //evitar que gera um js se tiver erro
+        "noImplicitAny": true //desativa o valor any para strings e numbers
     },
     "include":["app/**/*"] //onde está o ts
 }
