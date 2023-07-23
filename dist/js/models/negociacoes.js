@@ -6,6 +6,7 @@ export class Negociacoes {
     adiciona(negociacao) {
         this.negociacoes.push(negociacao);
     }
+    // somente para a leitura
     lista() {
         return this.negociacoes;
     }
